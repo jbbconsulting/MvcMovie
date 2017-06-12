@@ -64,6 +64,7 @@ namespace MvcMovie.Migrations
                    Price = 3.99M
                }
             );
+            context.SaveChanges();
         }
     }
 }

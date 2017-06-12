@@ -37,7 +37,7 @@ namespace MvcMovie.Models
     public class MovieDBContext : DbContext
     {
         // to create the movies db automatically
-        //public MovieDBContext() : base("MovieDBContext") { }
+        public MovieDBContext() : base("MovieDBContext") { }
         public DbSet<Movie> Movies { get; set; }
     }
 }
